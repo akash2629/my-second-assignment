@@ -1,0 +1,84 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Mulish:wght@300;400;700;800&display=swap');
+
+/* sharded style  */
+* {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.primary-btn {}
+
+
+/* NAV SECTION  */
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    margin: 52px 135px 0 135px;
+}
+
+
+nav h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+
+    font-weight: 800;
+
+}
+
+.span-color {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav>ul>li a {
+    text-decoration: none;
+
+}
+
+/* BANNER SECTION  */
+.banner {
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 52px 135px 0 135px;
+    border-radius: 16px;
+   
+
+}
+
+.banner-content {
+    text-align: center;
+     padding: 80px 250px 0 250px; 
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
