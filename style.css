@@ -23,73 +23,61 @@
 
 }
 
+.primary-btn:hover {
+    box-shadow: 8px 8px 10px grey, -8px -8px 10px grey;
+}
 
 /* NAV SECTION  */
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
 
     align-items: center;
     margin: 52px 135px 0 135px;
-}
-
-nav>ul>li,
-.home {
-   
-}
-.img{
-    
-}
-a, .home{
-    color: #FF5400;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 18px;
-
-    font-weight: 700;
-
-
-}
-
-.same {
-    color: var(--Dark-02, #424247);
-    text-align: center;
-    font-family: Mulish;
-    font-size: 18px;
-
-    font-weight: 400;
-
-}
-
-nav h3 {
-    color: #131318;
-    font-family: Mulish;
-    font-size: 36px;
-
-    font-weight: 800;
-
-}
-
-.span-color {
-    color: #FF5400;
-    font-family: Mulish;
-    font-size: 36px;
-
-    font-weight: 800;
-
-}
-
-nav>ul {
+} */
+nav {
+    padding: 10px 90px;
     display: flex;
-    list-style: none;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
-nav>ul>li a {
+nav .text-image {
+    display: flex;
+}
+
+nav .text-image h1 {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+nav span {
+    color: #FF5400;
+}
+
+nav .menu {
+    align-items: center;
+}
+
+nav .menu ul li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+nav .menu .home {
+    color: #FF5400;
+}
+
+nav .menu ul li a {
+    font-size: 1.2rem;
     text-decoration: none;
-
+    color: black;
 
 }
+
+
 
 /* BANNER SECTION  */
 .banner {
@@ -107,8 +95,8 @@ nav>ul>li a {
 
 .banner-content {
     text-align: center;
-     /* padding: 106px 170px 0 150px;  */
-     padding: 60px 287px 0 200px;  
+    /* padding: 106px 170px 0 150px;  */
+    padding: 60px 287px 0 200px;
 
 }
 
@@ -136,16 +124,16 @@ nav>ul>li a {
     width: 768px;
     height: 52px;
     border-radius: 8px;
-    border: 5px solid red;
+
     background: rgba(255, 255, 255, 0.30);
     display: inline-flex;
-    
+
     align-items: center;
     gap: 34px;
     padding: 16px;
-      margin: 30px 185px 106px 185px;  
+    margin: 30px 185px 106px 185px;
 
-     /* margin: 30px 185px 106px 80px;  */
+    /* margin: 30px 185px 106px 80px;  */
 
 }
 
@@ -189,9 +177,7 @@ main {
 
 }
 
-.tour-section-content {
-    border: 2px solid red;
-}
+.tour-section-content {}
 
 .tour-section-title {
     color: #131318;
@@ -273,6 +259,7 @@ ul>li {
 
 }
 
+
 .images-B {
     display: flex;
     gap: 24px;
@@ -283,6 +270,8 @@ ul>li {
     display: flex;
     gap: 24px;
 }
+
+
 
 
 /* Why Choose Us SECTION  */
@@ -311,11 +300,12 @@ ul>li {
 
 
 }
-.card-section{
+
+.card-section {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    
+
 }
 
 
@@ -327,7 +317,7 @@ ul>li {
     height: 284px;
     padding-top: 50px;
     padding-left: 20px;
-   
+
 }
 
 .card-B {
@@ -348,8 +338,316 @@ ul>li {
     height: 284px;
     padding-left: 50px;
     padding-top: 50px;
-    
+
     margin-left: 300px;
     margin-right: 300px;
+
+}
+
+
+/* DEALS .discount  */
+.deals {
+    padding: 30px 100px;
+
+
+}
+
+.deals p {
+    text-align: center;
+    padding-bottom: 20px;
+    color: grey;
+
+}
+
+.offer {
+    margin-bottom: 30px;
+}
+
+.offer .offer1 {
+    position: relative;
+    height: 500px;
+    width: 1100px;
+    margin-bottom: 30px;
+}
+
+.offer1 img {
+    position: absolute;
+    height: 500px;
+    width: 1100px;
+}
+
+.offer-information1 {
+    margin-top: 59px;
+    margin-left: 630px;
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.offer-information2 {
+    margin-top: 59px;
+    margin-left: 30px;
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.offer-information3 {
+    margin-top: 59px;
+    margin-left: 630px;
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.offer-information1 .tour-price{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 500px;
     
-} 
+    
+}
+.offer-information2 .tour-price{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+    
+}
+.offer-information3 .tour-price{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+
+.book-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 120px;
+    height: 40px;
+    
+    
+}
+
+.offer .offer2 {
+    position: relative;
+    height: 500px;
+    width: 1100px;
+    margin-bottom: 30px;
+}
+
+.offer2 img {
+    position: absolute;
+    height: 500px;
+    width: 1100px;
+}
+
+.offer .offer3 {
+    position: relative;
+    height: 500px;
+    width: 1100px;
+    margin-bottom: 30px;
+
+}
+
+.offer3 img {
+    position: absolute;
+    width: 1100px;
+    height: 500px;
+
+}
+
+.primary-btn1 {
+    color: #FFF;
+
+    font-family: Mulish;
+    font-size: 20px;
+
+    font-weight: 800;
+    padding-left: ;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 210px;
+    height: 52px;
+    border: none;
+    text-align: center;
+    margin-left: 415px;
+    margin-right: 600px;
+
+}
+
+
+/* newsletter  section */
+.newsletter-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 422px;
+}
+
+.Newsletter-form-section {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.Newsletter-form-section h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+
+    font-weight: 800;
+
+
+}
+
+.Newsletter-form-section p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    width: 350px;
+    font-weight: 400;
+
+}
+
+hr {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.Newsletter-form-section input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    text-align: center;
+}
+
+input.btn {
+    border: none;
+    background: #FF5400;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 800;
+
+}
+
+.btn:hover {
+    box-shadow: 8px 8px 10px grey, -8px -8px 10px grey;
+
+}
+
+.Newsletter-image-section img {
+    width: 600px;
+    height: 422px;
+    flex-shrink: 0;
+}
+
+.Newsletter-image-section .discount-badge {
+
+    color: white;
+    position: relative;
+
+    width: 270px;
+    height: 100px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+
+    padding-right: 10px;
+
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+    right: -310px;
+    top: -170px;
+    transform: rotate(-19deg);
+}
+
+
+
+
+
+
+
+
+/* Footer Section  */
+footer {
+    padding: 7cqmin;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    justify-content: center;
+    align-items: center;
+}
+
+footer .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer .top .nav-title {
+    color: #FF5400;
+}
+
+footer p {
+    padding: 20px 25%;
+}
+
+footer .icon {
+    margin-left: 20%;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+footer .icon i {
+    font-size: 205%;
+    margin-right: 15px;
+
+}
