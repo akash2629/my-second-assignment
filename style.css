@@ -93,7 +93,7 @@ nav>ul>li a {
 
 /* BANNER SECTION  */
 .banner {
-    background-image: url('/Images/banner.png');
+    background-image: url('./Images/banner.png');
     background-repeat: no-repeat;
     width: ;
 
