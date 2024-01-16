@@ -1,47 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY SECOND ASSIGNMENT</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
             <h3><img src="/Images/Group 40071 (2).png" alt="">Hero <span class="span-color">Travel</span></h3>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
-                <li><a href="">Blog</a ></li>
-                <li><a href="">Contact</a></li>
+                <li class="home"><a href="">Home</a></li>
+
+                <li><a class="same" href="">Packages</a></li>
+                <li><a class="same" href="">Testimonial</a></li>
+                <li><a class="same" href="">Blog</a></li>
+                <li><a class="same" href="">Contact</a></li>
+
             </ul>
 
         </nav>
         <div class="banner">
-            <div class="">
+            <div class="banner-content">
                 <h1 class="banner-title">Explore Your Travel</h1>
-                <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+                    adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
             </div>
-            <div class="">
-              <input name="Where go" id="place" placeholder="Where go"></input>
-             
-              <select name="When" id="day-month-year">
-                <option value=""></option>
-              <option value=""></option>
-              <option value=""></option></select>
-              <select name="" id=""></select>
-               
-               <button class="primary-btn">Find Now</button>
+            <div class="find-option">
+                <div class="style">
+                    <input class="A" name="Where go" id="location" placeholder="Where go"></input>
+
+                    <select class="B" id="day-month-year">
+                        <option value="When">When</option>
+                        <option value="cox's bazaz">Cox's Bazar</option>
+                        <option value=""></option>
+                    </select>
+
+                    <select class="C" id="Select Type">
+                        <option value="select type">Select Type</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+
+                    <button class="primary-btn"><img src="/icon/Frame.svg" alt="">Find Now</button>
+                </div>
+
+
             </div>
         </div>
     </header>
     <main>
+        <!-- TOUR SECTION  -->
+        <section class="tour-section">
+            <div class="tour-section-content">
+                <h2 class="tour-section-title">Our Popular Tours</h2>
+                <p class="tour-section-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+                    odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <ul>
+                    <li>
+                        <p class="tour-section-description">Tempus euismod lacus mauris dignissim quis in ultrices.
+                            Magna nullam odio neque diam. Sociis erat at .</p>
+                    </li>
+                    <li>
+                        <p class="tour-section-description">Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                            platea porta lacus. Lectus suspendisse nullam.</p>
+                    </li>
+                    <li>
+                        <p class="tour-section-description"> Accumsan eget et turpis praesent lorem egestas enim elit
+                            bibendum. Risus at in.</p>
+                    </li>
+                </ul>
+                <p class="tour-section-description">Amet consectetur. Vulputate commodo felis molestie risus ornare
+                    nulla amet et. Libero commod sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque
+                    aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+                <button class="primary-btn">Read More</button>
+
+            </div>
+            <div class="tour-section-image">
+                <img src="/Images/Rectangle 4.png" alt="">
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Choose Your Destination SECtion -->
+        <section class="destination-section">
+            <div class="destination-section-content">
+                <h3 class="destination-section-title">Choose Your Destination</h3>
+                <p class="destination-section-description">Dolor sit amet consectetur. Diam volutpat neque habitasse
+                    pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            </div>
+            <div class="destination-section-images">
+                <div class="images-A">
+                    <img class="" src="/Images/Rectangle 5.png" alt="Maldives">
+                    <img src="/Images/Rectangle 8 (1).png" alt="Indoneia" width="573px">
+                </div>
+                <div class="images-B">
+                    <img src="/Images/Rectangle 6.png" alt="Srilanka">
+                    <img src="/Images/Rectangle 7.png" alt="North America">
+                    <img src="/Images/Rectangle 9.png" alt="Kashmir">
+
+                </div>
+                <div class="images-C">
+                    <img src="/Images/Rectangle 11.png" alt="Bangladesh">
+                    <img src="/Images/Rectangle 10.png" alt="Bandarban">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Why Choose Us SECTION  -->
+        <section class="choose-section">
+            <div class="choose-section-content">
+                <h3 class="choose-section-title">Why Choose Us</h3>
+                <p class="choose-section-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+                    odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+
+            </div>
+            <div class="card-section">
+                <div class="card">
+                    <img src="/icon/hotel 1.svg" alt="">
+                    <h3 class="card-title">Handpicked Hotels</h3>
+                    <p class="card-description">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+
+                </div>
+                <div class="card">
+                    <img src="/icon/map 1.svg" alt="">
+                    <h3 class="card-title">card-description</h3>
+                    <p class="card-description">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                    
+                </div>
+                <div class="card">
+                    <img src="/icon/price-tag 1.svg" alt="">
+                    <h class="card-title">Best Price Guarantee</h>
+                    <p class="card-description">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <!-- Deals & DiscountS SECTION  -->
+        <section>
+
+        </section>
+
+        <!-- A Simple Perfect Place To Get Lost SECTION  -->
+        <section>
+
+        </section>
+
+
+
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>

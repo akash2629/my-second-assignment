@@ -7,7 +7,21 @@
     font-family: 'Mulish', sans-serif;
 }
 
-.primary-btn {}
+.primary-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+
+    font-weight: 800;
+
+
+}
 
 
 /* NAV SECTION  */
@@ -19,6 +33,26 @@ nav {
     margin: 52px 135px 0 135px;
 }
 
+nav>ul>li,
+.home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+
+    font-weight: 700;
+
+}
+
+.same {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
 
 nav h3 {
     color: #131318;
@@ -47,22 +81,26 @@ nav>ul {
 nav>ul>li a {
     text-decoration: none;
 
+
 }
 
 /* BANNER SECTION  */
 .banner {
     background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
+
+
     height: 500px;
     margin: 52px 135px 0 135px;
     border-radius: 16px;
-   
+
 
 }
 
 .banner-content {
     text-align: center;
-     padding: 80px 250px 0 250px; 
+    padding: 106px 170px 0 150px;
+    /* padding: 60px 287px 0 287px; */
 
 }
 
@@ -82,3 +120,218 @@ nav>ul>li a {
     font-weight: 400;
 
 }
+
+.find-option {
+    width: 768px;
+    height: 52px;
+    border-radius: 8px;
+    border: 5px solid red;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    /* padding: 16px; */
+    /* align-items: flex-start; */
+    align-items: center;
+    gap: 34px;
+    padding: 16px;
+    /* margin: 30px 185px 106px 185px; */
+
+    margin: 30px 185px 106px 80px;
+
+}
+
+.A {
+    width: 174px;
+    height: 52px;
+
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.B {
+    width: 174px;
+    height: 52px;
+
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.C {
+    width: 174px;
+    height: 52px;
+
+    border-radius: 8px;
+    background: #FFF;
+}
+
+/* MAIN  */
+main {
+    margin: 0 135px 0 135px;
+}
+
+/* TOUR SECTION  */
+.tour-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+
+.tour-section-content {
+    border: 2px solid red;
+}
+
+.tour-section-title {
+    color: #131318;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.tour-section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+ul>li {
+    color: rgba(19, 19, 24, 0.70);
+
+}
+
+.tour-section-image {
+    width: 50%;
+    height: 50%;
+
+
+}
+
+/* DESTINATION SECTION  */
+
+.destination-section-content {
+    text-align: center;
+    /* padding-top: 30px; */
+
+}
+
+.destination-section-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.destination-section-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    width: 643px;
+    padding-left: 263px;
+    padding-bottom: 48px;
+
+}
+
+.destination-section-images {
+    /* width: 50%;
+    height: 50%; */
+
+
+
+
+}
+
+.images-A {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 24px;
+    margin-right: 50px;
+    padding-right: 135px;
+    padding-bottom: 24px;
+
+}
+
+.images-B {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+.images-C {
+    display: flex;
+    gap: 24px;
+}
+
+
+/* Why Choose Us SECTION  */
+.choose-section-content {
+    text-align: center;
+}
+
+.choose-section-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.choose-section-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    width: 643px;
+    font-weight: 400;
+    padding-left: 300px;
+
+
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+
+
+.card-A {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.card-B {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.card-C {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 73px;
+    height: 284px;
+    /* padding-left: 443px;
+    padding-right: 444px; */
+    
+} 
