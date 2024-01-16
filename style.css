@@ -35,12 +35,19 @@ nav {
 
 nav>ul>li,
 .home {
+   
+}
+.img{
+    
+}
+a, .home{
     color: #FF5400;
     text-align: center;
     font-family: Mulish;
     font-size: 18px;
 
     font-weight: 700;
+
 
 }
 
@@ -86,8 +93,9 @@ nav>ul>li a {
 
 /* BANNER SECTION  */
 .banner {
-    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('/Images/banner.png');
     background-repeat: no-repeat;
+    width: ;
 
 
     height: 500px;
@@ -99,8 +107,8 @@ nav>ul>li a {
 
 .banner-content {
     text-align: center;
-    padding: 106px 170px 0 150px;
-    /* padding: 60px 287px 0 287px; */
+     /* padding: 106px 170px 0 150px;  */
+     padding: 60px 287px 0 200px;  
 
 }
 
@@ -113,11 +121,14 @@ nav>ul>li a {
 }
 
 .banner-description {
+    width: 676px;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
     font-size: 1rem;
     font-weight: 400;
+    /* padding-left: 180px;
+    padding-right: ; */
 
 }
 
@@ -128,14 +139,13 @@ nav>ul>li a {
     border: 5px solid red;
     background: rgba(255, 255, 255, 0.30);
     display: inline-flex;
-    /* padding: 16px; */
-    /* align-items: flex-start; */
+    
     align-items: center;
     gap: 34px;
     padding: 16px;
-    /* margin: 30px 185px 106px 185px; */
+      margin: 30px 185px 106px 185px;  
 
-    margin: 30px 185px 106px 80px;
+     /* margin: 30px 185px 106px 80px;  */
 
 }
 
@@ -313,25 +323,33 @@ ul>li {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 573px;
+    width: 550px;
     height: 284px;
+    padding-top: 50px;
+    padding-left: 20px;
+   
 }
 
 .card-B {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 573px;
+    width: 550px;
     height: 284px;
+    padding-top: 50px;
+    padding-left: 20px;
 }
 
 .card-C {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 73px;
+    width: 573px;
     height: 284px;
-    /* padding-left: 443px;
-    padding-right: 444px; */
+    padding-left: 50px;
+    padding-top: 50px;
+    
+    margin-left: 300px;
+    margin-right: 300px;
     
 } 
