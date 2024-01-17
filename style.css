@@ -37,13 +37,13 @@
     align-items: center;
     margin: 52px 135px 0 135px;
 } 
-nav {
+/* nav {
     padding: 10px 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-}
+} */
 
 nav .text-image {
     display: flex;
